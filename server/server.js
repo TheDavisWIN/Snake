@@ -1,7 +1,7 @@
 const PORT = process.env.PORT || 3000;
 const io = require('socket.io')(PORT, {
     cors: {
-        origin: "https://amazing-biscochitos-b68c3e.netlify.app",
+        origin: "https://thedaviswin-snake.netlify.app",
         methods: ["GET", "POST"],
     }
 });
